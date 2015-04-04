@@ -1,0 +1,170 @@
+/*
+-- Basic Reset
+*/
+
+* {margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6 {font-weight: normal;}
+img, fieldset {border: 0;}
+img {max-width: 100%; vertical-align: middle;}
+button {cursor: pointer;}
+
+
+/*
+-- Structure
+*/
+
+.site-header, .navigation-bar, .site-content, .site-footer {
+    width: 58.75em; /* 940 / 16 */
+    margin: auto;
+}
+
+/* header */
+
+.header-outer {
+    background-color: #6feb48;
+}
+
+.logo {
+    background-color: #5ec63d;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 2.625em;
+    padding: 0.3em 1.25em;
+    letter-spacing: 0.05em;
+    float: left;
+}
+
+.tagline {
+    font-style: italic;
+    color: #FFF;
+    font-size: 1.4em; /* 14 / 16 */
+    float: right;
+    margin-top: 1em;
+}
+
+/* navigation bar */
+
+.navigation-outer {
+    background: #5ec63d;
+}
+
+/* main navigation */
+
+.site-navigation {
+}
+
+.site-navigation ul{
+    padding: 0;
+    margin: 0;
+
+}
+.site-navigation li {
+    display: inline-block;
+    margin: -0.15em;
+    padding: 0;
+}
+
+.site-navigation a {
+    display: block;
+    text-decoration: none;
+    color: darkgreen;
+    font-size: 1.4em;
+    padding: 0.6em 2em;
+    margin: 1em 0;
+    background-color: #cef5c1;
+    border-top: 0.2em solid darkgreen;
+}
+
+.site-navigation a:hover {
+    opacity: 0.7;
+}
+
+/* main content */
+
+.site-content{
+    height: 35em;
+}
+
+/* footer */
+
+.footer-outer {
+    background: #5ec63d;
+}
+
+.site-footer {
+    padding: 2em 0;
+}
+
+.site-footer, .site-footer a {
+    color: #FFF;
+}
+
+/* footer-about */
+
+.footer-about {
+    float: left;
+    width: 42.5531914893617%; /* 400 / 940 */
+}
+
+.footer-about h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.125em;
+}
+
+.footer-about p {
+    line-height: 2em;
+    font-size: 0.875em;
+}
+
+/* footer-navigation */
+
+.footer-navigation {
+    float: left;
+    opacity: 0.5;
+    font-size: 0.75em;
+    text-transform: uppercase;
+}
+
+.footer-navigation li {
+    display: inline-block;
+}
+
+.footer-navigation a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-navigation a:hover {
+    text-decoration: underline;
+}
+
+.footer-navigation li:after {
+    content: " / "
+}
+
+.footer-navigation li:last-child:after {
+    content: " ";
+}
+
+/* footer-copyright */
+
+.footer-copyright {
+    float: right;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1em
+}
+
+/*
+-- General Use
+*/
+
+.group:before, .group:after {
+    content:  " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
