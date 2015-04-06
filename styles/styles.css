@@ -85,6 +85,60 @@ button {cursor: pointer;}
     height: 35em;
 }
 
+/* contact.html */
+
+#contact-data-div{
+    margin-top: 3em;
+    display: inline-block;
+    width: 49%;
+    border: 1px solid;
+}
+
+#contact-form-div{
+    margin-top: 3em;
+    vertical-align: top;
+    display: inline-block;
+    width: 49%;
+    border: 1px solid;
+}
+
+#contact-form-div input{
+    border-radius: 0.4em;
+    border: 0.1em solid #288728;
+    height:2em;
+    width: 80%;
+    font-size: large;
+    padding-left: 3%;
+    margin:1em 0 1em 0;
+}
+
+#contactButton {
+    background-color: #5ec63d;
+    width: 100%;
+    padding: 1em 0 1em 0;
+}
+
+#contactButton:hover {
+    background-color: #6feb48;
+}
+
+.right-aligned-div{
+    margin-left: auto;
+    width: 60%;
+    height: 8em;
+    border: 1px solid;
+}
+
+#contact-form-div textarea{
+    border-radius: 0.4em;
+    border: 0.1em solid #288728;
+    height: 10em;
+    width:90%;
+    padding-left: 3%;
+    font-size: large;
+    margin:1em 0 1em 0;
+}
+
 /* footer */
 
 .footer-outer {
